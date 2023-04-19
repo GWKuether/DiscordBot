@@ -39,27 +39,27 @@ const commands = [
             }
         ]
     },
+    // {
+    //   name: 'addname',
+    //   description: 'this thing just adds people when I need it to',
+    //   options: [
+    //     {
+    //       name: 'name',
+    //       description: 'who am I adding here',
+    //       type: ApplicationCommandOptionType.String,
+    //       required: true,
+    //     },
+    //     {
+    //       name: 'wins',
+    //       description: 'how many wins do they have',
+    //       type: ApplicationCommandOptionType.Number,
+    //       required: true,
+    //     }
+    //   ]
+    // },
     {
-      name: 'addname',
-      description: 'this thing just adds people when I need it to',
-      options: [
-        {
-          name: 'name',
-          description: 'who am I adding here',
-          type: ApplicationCommandOptionType.String,
-          required: true,
-        },
-        {
-          name: 'wins',
-          description: 'how many wins do they have',
-          type: ApplicationCommandOptionType.Number,
-          required: true,
-        }
-      ]
-    },
-    {
-      name: 'fetch',
-      description: 'this retrieves info from the database'
+      name: 'getleaderboard',
+      description: 'this beautifully displays the lifetime wins of each member of the bunnies'
     }
 ];
 
