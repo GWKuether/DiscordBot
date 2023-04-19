@@ -73,7 +73,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
     const joeNewWins = interaction.options.get("joe").value
     const tyNewWins = interaction.options.get("ty").value
 
-	interaction.reply("thanks for that chief, let me do some math real quick");
+	interaction.reply("thanks for that chief, I added all of those wins to the leaderboard");
 
 	const updateGeorge = george.get('wins') + georgeNewWins
 	const updateMatt = matt.get('wins') + mattNewWins
